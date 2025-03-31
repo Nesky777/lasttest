@@ -18,12 +18,25 @@
 .textcenter {
     font-size: 60px;
 }
-.kontentcenter {
+.artykol {
+    display: flex;
+    gap: 20px;
     width: 100%;
-    text-align: center;
-    margin-top: 50px;
+}
+.photo {
+    font-size: 40px;
+    align-self: auto;
+    object-fit: fill;
+}
+.infotext {
+    display: inline-block;
+    width: 600px;
+    
 }
 
+.artykolinfo {
+    text-align: center;
+}
 header{
     padding: 0px;
     margin: 0px;

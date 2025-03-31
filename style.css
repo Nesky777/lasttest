@@ -1,7 +1,8 @@
 .Us {
     width: 100%;
 }
-h1.textcenter {
+.textcenter {
     text-align: center;
     margin: auto;
+    color: red;
 }

@@ -8,13 +8,11 @@
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Kontakt ze mną</h1>
-        </nav>
-        <ul>
-            <li><a href="index.html">Prace</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+        <div class="headercontainer">
+            <div><nav><h1>Napisz do mnie</h1></nav></div>
+            <div><a href="index.html"><b class="background">Prace</b></a></div>
+            <div><a href="kontakt.html"><b class="background">Kontakt</b></a></div>
+        </div>
     </header>
     <main>
         <section>
@@ -22,8 +20,10 @@
                 Formularz kontaktowy
             </h1>
             <form action="kontakt">
-                <input type="text" name="tresc-email" placeholder="twoja wiadomość">
+                <textarea id="email" name="tresc-email" 
+                placeholder="twoja wiadomość" rows="20" cols="50"></textarea>
             </form>
+            <button type="submit">wyślij</button>
         </section>
     </main>
 </body>

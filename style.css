@@ -53,9 +53,14 @@ header{
     padding: 0px;
     margin: 0px;
     font-size: larger;
-    position: sticky;
+    position: fixed;
     top: 0;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    width: 100%;
+    z-index: 3;
 }
+
+
 footer {
     padding: 10px;
     margin: 0px;
@@ -112,7 +117,21 @@ a:hover{
     text-decoration: none;
 }
 a:visited{
-    color: gray;
+    color: white;
     font-weight: bolder;
     text-decoration: none;
+}
+
+@media ( width < 900px ) {
+    .skills{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        align-items: center
+    }
+    .BOX{
+        width: 90%;
+        padding: 10px;
+    }
+
 }

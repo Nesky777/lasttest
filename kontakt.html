@@ -4,28 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleburger.css">
     <title>Kontakt</title>
 </head>
 <body>
     <header>
-        <div class="headerstyle">
-            <nav>
-                <h1>Moje Portfolio</h1>
-            </nav>
-            <div><a href="index.html">Prace</a></div>
-            <div><a href="kontakt.html">Kontakt</a></div> 
-        </div>
-</header>
+        <nav><a href="" class="logo">Moje Portfolio</a></nav>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Prace</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </header>
+    <br><br><br>
     <main>
-<<<<<<< HEAD
-        <section>
-            <h1>
-                Formularz kontaktowy
-            </h1>
-            <form action="kontakt">
-                <textarea id="email" name="tresc-email" 
-                placeholder="twoja wiadomość" rows="20" cols="50"></textarea>
-=======
         <section class="formularz">
             <form class="forme" action="kontakt">
                 <h1 style="text-align: center; font-size: 40px;">
@@ -33,9 +27,7 @@
                 </h1>
                 <textarea name="text" id="kontakt" placeholder="Tutaj napisz swoją wiadomość..."></textarea>
                 <button class="send" type="submit"> Wyślij</button>
->>>>>>> fd43f5d49f6d752a3e4e8fd388962dbd68cb1a0b
             </form>
-            <button type="submit">wyślij</button>
         </section>
     </main>
 </body>

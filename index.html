@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleburger.css">
     <title>Moje Portfolio</title>
 </head>
 <body>
     <header>
-            <div class="headerstyle">
-                <nav>
-                    <h1>Moje Portfolio</h1>
-                </nav>
-                <div><a href="index.html">Prace</a></div>
-                <div><a href="kontakt.html">Kontakt</a></div>
-            </div>
+        <nav><a href="" class="logo">Moje Portfolio</a></nav>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Prace</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
     </header>
+    <br><br><br>
     <main>
         <section>
-
             <div class="image-container">
                 <img src="untitled.jpg" alt="Profilowe" class="profile-pic">
                 <h2 class="OurName">Nasze imię</h2>
             </div>
-
             <div class="skills">
                 <span class="BOX">
                     <h2 class="box-topic">Frontendowe technologie</h2>
@@ -43,17 +44,18 @@
                     <p class="box-info">Projekt WorkOn &#9866; Potwierdzenie umiejętności frontendowych.</p>
                 </span>
             </div>
-
         </section>
     </main>
+
     <footer>
         <section>
-            <h1>Dane kontaktowe:</h1>
+            <h1 class="clear">Dane kontaktowe:</h1>
                 <ul>
                     <li><b>email:</b> <a href="jakismail@gmail.com">jakismail@gmail.com</a></li>
-                    <li><b>telefon:</b> <a href="+48123456789">+48 123456789</a></li>
+                    <li><b>telefon:</b> <a tel="+48123456789"> +48 123456789</a></li>
                 </ul>
         </section>  
     </footer>
+    
 </body>
 </html>

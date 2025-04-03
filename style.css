@@ -6,6 +6,8 @@
     background-attachment: fixed;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
 }
 
 img.profile-pic {
@@ -48,13 +50,37 @@ img.profile-pic {
     margin: 10px;
 }
 header{
+    background-color: #2d2d2d;
     padding: 0px;
     margin: 0px;
+    font-size: larger;
 }
     
 footer {
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     border: 3px solid rgb(98, 97, 97);
+    background-color: #2d2d2d;
+}
 
+.headerstyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover{
+    color: darkviolet;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:visited{
+    color: gray;
+    font-weight: bolder;
+    text-decoration: none;
 }

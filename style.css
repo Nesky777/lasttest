@@ -54,6 +54,8 @@ header{
     padding: 0px;
     margin: 0px;
     font-size: larger;
+    position: sticky;
+    top: 0;
 }
     
 footer {

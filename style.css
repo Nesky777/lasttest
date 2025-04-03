@@ -9,7 +9,6 @@
     padding: 0px;
     margin: 0px;
 }
-
 img.profile-pic {
     width: 250px; 
     height: 250px;
@@ -57,12 +56,43 @@ header{
     position: sticky;
     top: 0;
 }
-    
 footer {
     padding: 10px;
     margin: 0px;
     border: 3px solid rgb(98, 97, 97);
-    background-color: #2d2d2d;
+}
+#kontakt {
+    width: 600px;
+    height: 250px;
+    font-size: 17px;
+    border-radius: 30px;
+    padding: 12px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+}
+.formularz {
+    display: flex;
+    justify-content: center;
+}
+.forme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+.send {
+    width: 90px;
+    height: 60px;
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 20%;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(55, 55, 55, 1);
+}
+.send:hover {
+    border: 3px solid rgb(55, 55, 55, 1);
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);    background-color: #2d2d2d;
 }
 
 .headerstyle{

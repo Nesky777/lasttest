@@ -83,7 +83,7 @@ header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
 }
 
 @media ( min-width: 48em ) {
-header li {
+  header li {
     float: left;
   }
   header li a {
